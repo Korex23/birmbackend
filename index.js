@@ -230,7 +230,7 @@ app.post("/compress-pdf", upload.single("file"), async (req, res) => {
     const task = ilovepdf.newTask("compress");
 
     await task.start();
-    console.log("Task started with ID:", { key: task.taskId, task });
+    console.log("Task started with ID:", { task });
 
     console.log("Using temporary file:", { tempFilePath });
 
