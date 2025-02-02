@@ -7,7 +7,7 @@ require("dotenv").config();
 // const fileCompressionRoutes = require("./fileCompression"); // Import the new file
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "*" }));
 const port = 5000;
 
 // Initialize Firebase Admin SDK
