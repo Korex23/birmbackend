@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({ origin: "*" }));
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // Initialize Firebase Admin SDK
 const serviceAccount = require("./birmkey.json");
