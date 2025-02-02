@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@ilovepdf/ilovepdf-nodejs": "^0.3.0",
     "axios": "^1.7.9",
