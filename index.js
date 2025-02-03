@@ -32,7 +32,7 @@ const ilovepdf = new ILovePDF(
 );
 
 // Initialize Firebase Admin SDK
-const serviceAccount = require("./birmkey.json");
+const serviceAccount = require("./birmbook-2194f-firebase-adminsdk-qga2f-df42563aee.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
@@ -56,7 +56,7 @@ const verificationCodes = {}; // This will store email and their corresponding c
 const sendAuthMail = async (email) => {
   try {
     const actionCodeSettings = {
-      url: "https://localhost:5173/signin", // Redirect URL after verification
+      url: "https://blessedbirm.com/signin", // Redirect URL after verification
       handleCodeInApp: true, // Whether to handle the link in your app
     };
 
