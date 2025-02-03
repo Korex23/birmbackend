@@ -32,7 +32,7 @@ const ilovepdf = new ILovePDF(
 );
 
 // Initialize Firebase Admin SDK
-const serviceAccount = require("./birmbook-2194f-firebase-adminsdk-qga2f-df42563aee.json");
+const serviceAccount = require("./birmbook-2194f-firebase-adminsdk-qga2f-da77419f97.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
