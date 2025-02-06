@@ -67,7 +67,7 @@ const sendAuthMail = async (email) => {
 
     // Send the verification email using Nodemailer
     const mailOptions = {
-      from: "birmbook@gmail.com",
+      from: "BlessedBirm",
       to: email,
       subject: "Confirm Your Email for BlessedBirm",
       text: `Hi there,
@@ -120,7 +120,7 @@ const sendVerificationCode = async (email, institution) => {
 
     // Send the verification email using Nodemailer
     const mailOptions = {
-      from: "birmbook@gmail.com",
+      from: "BlessedBirm",
       to: email,
       subject: `Verify Your ${institution} Affiliation for BlessedBirm`,
       text: `Hi there,
